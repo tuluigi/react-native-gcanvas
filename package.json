@@ -1,0 +1,27 @@
+{
+  "name": "react-native-gcanvas",
+  "version": "0.0.7-dev",
+  "description": "GCanvas React-Native version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "gcanvas"
+  ],
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1",
+    "gcanvas.js": "^0.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivpusic/react-native-image-crop-picker.git"
+  },
+  "rnpm": {
+    "android": {
+      "sourceDir": "./android"
+    }
+  }
+}
